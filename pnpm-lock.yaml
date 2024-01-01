@@ -1,0 +1,31 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      only-allow:
+        specifier: ^1.2.1
+        version: registry.npmmirror.com/only-allow@1.2.1
+
+packages:
+
+  registry.npmmirror.com/only-allow@1.2.1:
+    resolution: {integrity: sha512-M7CJbmv7UCopc0neRKdzfoGWaVZC+xC1925GitKH9EAqYFzX9//25Q7oX4+jw0tiCCj+t5l6VZh8UPH23NZkMA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/only-allow/-/only-allow-1.2.1.tgz}
+    name: only-allow
+    version: 1.2.1
+    hasBin: true
+    dependencies:
+      which-pm-runs: registry.npmmirror.com/which-pm-runs@1.1.0
+    dev: false
+
+  registry.npmmirror.com/which-pm-runs@1.1.0:
+    resolution: {integrity: sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/which-pm-runs/-/which-pm-runs-1.1.0.tgz}
+    name: which-pm-runs
+    version: 1.1.0
+    engines: {node: '>=4'}
+    dev: false

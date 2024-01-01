@@ -1,0 +1,17 @@
+{
+  "name": "frontend-monitoring-system",
+  "version": "1.0.0",
+  "description": "一个学习前端监控系统的仓库",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "only-allow": "^1.2.1"
+  }
+}
