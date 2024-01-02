@@ -12,6 +12,8 @@ importers:
         specifier: ^1.2.1
         version: registry.npmmirror.com/only-allow@1.2.1
 
+  packages/browser: {}
+
 packages:
 
   registry.npmmirror.com/only-allow@1.2.1:
